@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">         
+<script src="js/bootstrap.min.js"></script>
+<title>Payments</title>
+</head>
+<body>
+	<form action="PayList.jsp" method="POST">
+		<div class="page-header" style="text-align: center">
+ 			 <h2>Add payment</h2>
+		</div>
+
+		<div class="form-group" style="width: 15%">
+  			<label for="name">Date</label>
+  			<input class="form-control" id="date" name="date" type="date" required value=""/>
+		</div>
+		
+		<div class="form-group" style="width: 15%">
+  			<label for="name">Merchant ID</label>
+  			<input class="form-control" id="merchantId" name="merchantId" type="text" required value=""/>
+		</div>
+		
+		<div class="form-group" style="width: 15%">
+  			<label for="name">Customer ID</label>
+  			<input class="form-control" id="customerId" name="customerId" type="text" required value=""/>
+		</div>
+		
+		<div class="form-group" style="width: 15%">
+  			<label for="name">Goods</label>
+  			<input class="form-control" id="goods" name="goods" type="text" required value=""/>
+		</div>
+		
+		<div class="form-group" style="width: 15%">
+  			<label for="name">Sum payed</label>
+  			<input class="form-control" id="sumPayed" name="sumPayed" type="text" required value=""/>
+		</div>
+		
+		<div class="form-group" style="width: 15%">
+  			<label for="name">Charge payed</label>
+  			<input class="form-control" id="chargePayed" name="chargePayed" type="text" required value=""/>
+		</div>
+
+		<br/>
+    	<button type="submit" class="btn btn-default">Add new payment</button>
+		<a href="MainPage.html" class="btn btn-primary">Back to main page</a>
+    </form>		
+</body>
+</html>

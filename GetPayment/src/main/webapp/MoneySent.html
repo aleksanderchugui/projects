@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">         
+<script src="js/bootstrap.min.js"></script>
+<title>Send money to merchants</title>
+</head>
+<body>
+	<form action="moneySent.jsp" method="POST">
+		<div class="page-header" style="text-align: center">
+ 			 <h2>Send money to merchants</h2>
+		</div>
+			<div class="col-xs-3">
+			<label for="availableSum">Available sum</label>
+				<div class="input-group">
+ 					<span class="input-group-addon">$</span>
+  					<input type="text" class="form-control" name="availableSum"/>
+				</div>
+				<br/>
+				<button type="submit" class="btn btn-default">Send money to merchants</button>
+				<a href="MainPage.html" class="btn btn-primary">Back to main page</a>
+			</div>	
+    </form>		
+</body>
+</html>
